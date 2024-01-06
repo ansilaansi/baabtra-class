@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <html lang="en">
+            
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <title>
+             boxes
+           </title>
+           <link rel="stylesheet" href="16-12-23.css">
+           <style> 
+                #nice{
+                    background-color: rgb(0, 255, 94);
+                    height: 400px;
+                    width: 250px;
+                    margin: 0 auto;
+                    margin-top: 200px;
+                    z-index: -2;
+                    box-shadow: 10px 20px;
+                    /* box-shadow: h-offset v-offset blur spred color|*/
+                }
+                
+                #n3{
+                    background-color: rgb(186, 238, 17);
+                    height: 150px;
+                    width: 150px;
+                    position: absolute;
+                    margin-left: -120px;
+                    margin-top: -120px;
+                    z-index: -3;
+                    box-shadow: 10px 20px;
+                }
+                #n33{
+                    background-color: rgb(44, 171, 200);
+                    height: 150px;
+                    width: 150px;
+                    position: absolute;
+                    margin-left: -70px;
+                    margin-top: -70px;
+                    z-index: -1;
+                    box-shadow: 10px 20px;
+                }
+        
+            </style>
+        </head>
+        <body>
+            <div id="nice">
+                <div id="n3"></div>
+                <div id="n33"></div>
+                <div class="container" >
+                     <h1 id="login" style="color: red;">
+                        login
+                    </h1>
+                    <form>
+                        <input id="m1" type="text" placeholder="username"><br><br>
+                        <input id="m1" type="password" placeholder="password"><br><br>
+                        <button id="m2">
+                            login button
+                        </button><br>
+                    </form>
+                </div>
+                
+            </div><br>
+        </body>
+   </html>

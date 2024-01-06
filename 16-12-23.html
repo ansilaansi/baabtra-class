@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>
+            form
+        </title>
+        
+        <style>
+            #login{
+                color: aquamarine;
+            }
+            .container{
+                background-color: rgb(0, 255, 26);
+                border-radius: 10px;
+                height: 500px;
+                width: 300px;
+                margin: auto;
+                padding: 70px;
+                text-align: center;
+            }
+            #m1:hover{
+                 background-color: rgb(207, 83, 197);
+                 color: rgb(78, 82, 86);
+            }
+
+            #m2:hover{
+                background-color: rgb(113, 157, 222);
+                color: rgb(108, 113, 123);
+                width: 150px;
+            }
+            /* selector:pseudo-class{...}-example-hover,focus,visited,active*/
+            /* selector::pseudo-element{...}-example-first-letter,first-line*/
+            #m2{
+                background-color: rgb(53, 76, 160);
+                color: aquamarine;
+                width: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container" >
+            <h1 id="login" style="color: red;">login</h1>
+            <form>
+                <input id="m1" type="text" placeholder="username"><br><br>
+                <input id="m1" type="password" placeholder="password"><br><br>
+                <button id="m2">
+                    login button
+                </button><br>
+            </form>
+        </div>
+    </body>
+</html>
